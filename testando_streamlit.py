@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+st.title('TESTE st.title')
+st.code('for i in range(8): foo()')
+
 st.write("""
 # Testando o streamlit
 *hello world!*
