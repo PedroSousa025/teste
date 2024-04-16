@@ -8,6 +8,6 @@ st.write("""
 
 number = st.slider("Pick a number", 0, 100)
 
-st.write(number)
+st.write("o número selecionado foi: {}" .format(number))
 
 
