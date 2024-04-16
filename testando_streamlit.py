@@ -5,3 +5,5 @@ st.write("""
 # Testando o streamlit
 *hello world!*
 """)
+
+number = st.slider("Pick a number", 0, 100)
