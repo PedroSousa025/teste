@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title('TESTE st.title')
-st.code('print("hello world!"')
+st.code('print("hello world!")')
 
 st.write("""
 # Testando o streamlit
