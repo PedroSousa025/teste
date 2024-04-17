@@ -20,7 +20,7 @@ final = number * multiplicador
 st.toast("não faço a minima ideia do que isso faz")
 
 cor = st.color_picker("selecione uma cor: ")
-st.write("o número final foi: :pink[{}]" .format(final))
+st.write("o número final foi: :red[{}]" .format(final))
 st.write("testando :cor[cores]")
 
 
