@@ -9,6 +9,10 @@ st.write("""
 *hello world!*
 """)
 
+col1, col2 = st.columns(2)
+col1.write('Column 1')
+col2.write('Column 2')
+
 number = st.slider("Escolha um número: ", 0, 100)
 multiplicador =st.select_slider('Escolha o multiplicador:', options=[1,2,3,4,5,6,7,8,9,10])
 final = number * multiplicador
