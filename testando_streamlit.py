@@ -1,6 +1,6 @@
 
 
-from transformers import pipeline
+from https://github.com/huggingface/transformers.git import pipeline
 import streamlit as st
 import pandas as pd
 
