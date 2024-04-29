@@ -1,4 +1,4 @@
-!pip install transformers datasets
+!pip install git+https://github.com/huggingface/transformers.git
 
 from transformers import pipeline
 import streamlit as st
@@ -12,6 +12,7 @@ st.write("""
 *hello world!*
 """)
 
+classifier = pipeline("sentiment-analysis")
 col1, col2 = st.columns(2)
 col1.write('Column 1')
 col2.write('Column 2')
