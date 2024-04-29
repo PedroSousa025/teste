@@ -1,4 +1,4 @@
-!pip install git+https://github.com/huggingface/transformers.git
+
 
 from transformers import pipeline
 import streamlit as st
