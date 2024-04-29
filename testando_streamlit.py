@@ -1,3 +1,6 @@
+!pip install transformers datasets
+
+from transformers import pipeline
 import streamlit as st
 import pandas as pd
 
@@ -22,7 +25,5 @@ if final > 100:
 else:
   st.write("o número final foi: :red[{}]" .format(final))
   
-
-cor = st.color_picker("selecione uma cor: ")
 
 
